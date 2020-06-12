@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Components">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\TopDesign</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Pins</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Analog</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Clocks</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Interrupts</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\DMA</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\System</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Directives</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Flash Security</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\EEPROM</v>
+<v>Lecture9\Lecture9\Header Files</v>
+<v>Lecture9\Lecture9\Header Files\cyapicallbacks.h</v>
+<v>Lecture9\Lecture9\Source Files</v>
+<v>Lecture9\Lecture9\Source Files\main.c</v>
+<v>Lecture9\Lecture9\Generated_Source</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\TopDesign</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Pins</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Analog</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Clocks</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Interrupts</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\DMA</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\System</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Directives</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\Flash Security</v>
+<v>Lecture9\Lecture9\Lecture9.cydwr\EEPROM</v>
+<v>Lecture9\Lecture9\Header Files</v>
+<v>Lecture9\Lecture9\Header Files\cyapicallbacks.h</v>
+<v>Lecture9\Lecture9\Source Files</v>
+<v>Lecture9\Lecture9\Source Files\main.c</v>
+<v>Lecture9\Lecture9\Generated_Source</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Clock_1</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cy_boot</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Green_LED</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Red_LED</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\StateMachine_1</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Switch1</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\Yellow_LED</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevice.h</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfitter.h</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\cymetadata.c</v>
+<v>Lecture9\Lecture9\Generated_Source\PSoC5\project.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Lecture9\Lecture9\StateMachine\StateMachine.cyudb">
+<ExpandedNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\StateMachine</v>
+<v>Lecture9\Lecture9\StateMachine\StateMachine.cysym</v>
+<v>Lecture9\Lecture9\StateMachine\StateMachine.cyudb</v>
+<v>Lecture9\Lecture9\TopDesign</v>
+<v>Lecture9\Lecture9\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\StateMachine</v>
+<v>Lecture9\Lecture9\StateMachine\StateMachine.cysym</v>
+<v>Lecture9\Lecture9\StateMachine\StateMachine.cyudb</v>
+<v>Lecture9\Lecture9\TopDesign</v>
+<v>Lecture9\Lecture9\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\CortexM3</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Green_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Red_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch1.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Yellow_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.elf</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.hex</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.map</v>
+<v>Lecture9\Lecture9\Lecture9.gpdsc</v>
+<v>Lecture9\Lecture9\Lecture9.rpt</v>
+<v>Lecture9\Lecture9\Lecture9_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\CortexM3</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Green_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Red_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Switch1.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Listing Files\Yellow_LED.lst</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.elf</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.hex</v>
+<v>Lecture9\Lecture9\CortexM3\ARM_GCC_541\Debug\Lecture9.map</v>
+<v>Lecture9\Lecture9\Lecture9.gpdsc</v>
+<v>Lecture9\Lecture9\Lecture9.rpt</v>
+<v>Lecture9\Lecture9\Lecture9_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\PSoC 5LP Architecture TRM</v>
+<v>Lecture9\Lecture9\CY8C58LP Family Datasheet</v>
+<v>Lecture9\Lecture9\System Reference Guides</v>
+<v>Lecture9\Lecture9\System Reference Guides\cy_boot_v5_90</v>
+<v>Lecture9\Lecture9\cy_clock_v2_20.pdf</v>
+<v>Lecture9\Lecture9\cy_pins_v2_20</v>
+<v>Lecture9\Lecture9\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Lecture9\Lecture9\Debouncer_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Lecture9</v>
+<v>Lecture9\Lecture9</v>
+<v>Lecture9\Lecture9\PSoC 5LP Architecture TRM</v>
+<v>Lecture9\Lecture9\CY8C58LP Family Datasheet</v>
+<v>Lecture9\Lecture9\System Reference Guides</v>
+<v>Lecture9\Lecture9\System Reference Guides\cy_boot_v5_90</v>
+<v>Lecture9\Lecture9\cy_clock_v2_20.pdf</v>
+<v>Lecture9\Lecture9\cy_pins_v2_20</v>
+<v>Lecture9\Lecture9\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Lecture9\Lecture9\Debouncer_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v=".\Lecture9.cydsn\Lecture9.cyprj">
+<listName />
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Lecture9.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Lecture9.cydsn\StateMachine\StateMachine.cyudb" />
+<name v=".\Lecture9.cydsn\StateMachine\StateMachine.cysym" />
+<name v=".\Lecture9.cydsn\Lecture9.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1389, 711" SelectedTabbedMdiWindow="1e3a6a61-9704-49ea-8935-ac254cb54b65"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="cede9008-aad7-4148-8b36-8ed4b90e7fa0" /><DocumentWindow Key="C:\Users\asol17\Documents\Uni\P6\Digital Design\Lecture_9\Lecture9\Lecture9.cydsn\TopDesign\TopDesign.cysch" Guid="03b35d74-e210-4b8d-b99b-4795e124412b" /><DocumentWindow Key="C:\Users\asol17\Documents\Uni\P6\Digital Design\Lecture_9\Lecture9\Lecture9.cydsn\StateMachine\StateMachine.cyudb" Guid="1e3a6a61-9704-49ea-8935-ac254cb54b65" /><DocumentWindow Key="C:\Users\asol17\Documents\Uni\P6\Digital Design\Lecture_9\Lecture9\Lecture9.cydsn\StateMachine\StateMachine.cysym" Guid="deac44c0-5628-4047-8b1f-0f004d07b10a" /><DocumentWindow Key="C:\Users\asol17\Documents\Uni\P6\Digital Design\Lecture_9\Lecture9\Lecture9.cydsn\Lecture9.cydwr" Guid="f526e0a6-f851-4135-9b50-45cefaf79290" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

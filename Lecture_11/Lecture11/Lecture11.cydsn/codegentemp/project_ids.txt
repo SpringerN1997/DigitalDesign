@@ -1,0 +1,6 @@
+F:\PSoC\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|1619d33c-bbe0-4a53-be7c-f108a12b4f25
+C:\Users\asol17\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|0576aa1e-7f8c-4f1e-b9d0-4600a7d0c383
+F:\PSoC\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|531b7493-ff60-4e30-8f47-9a008889ccee
+F:\PSoC\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|7e61f18a-8df9-4c24-9a95-1f49f97138d2
+F:\PSoC\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|31746976-469e-414a-9132-c8d3c5d70616
+C:\Users\asol17\Documents\Uni\P6\Digital Design\Lecture_11\Lecture11\Lecture11.cydsn\Lecture11.cyprj|56aa7a94-4f41-4aee-a186-cb34e5b1cb67

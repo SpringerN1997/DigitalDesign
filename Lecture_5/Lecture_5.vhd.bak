@@ -1,0 +1,22 @@
+	library IEEE;
+	use IEEE.STD_LOGIC_1164.ALL;
+
+	entity Four_Bit_Shifter is
+	    Port ( D : in  STD_LOGIC;
+	           Q : out  STD_LOGIC_VECTOR (7 downto 0);
+	           clk : in  STD_LOGIC);
+	end Four_Bit_Shifter;
+
+	architecture Behavioral of Four_Bit_Shifter is
+
+	begin
+
+	process (clk)
+	variable buff: std_logic_vector(7 downto 0);
+	
+	begin
+
+	end process;
+	
+
+	end Behavioral;

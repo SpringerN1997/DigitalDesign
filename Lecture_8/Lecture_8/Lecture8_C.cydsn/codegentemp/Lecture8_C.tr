@@ -1,0 +1,426 @@
+##################################################################### 
+                    Table of Contents
+===================================================================== 
+	1::Clock Frequency Summary
+	2::Clock Relationship Summary
+	3::Datasheet Report
+		3.1::Setup to Clock
+		3.2::Clock to Out
+		3.3::Pad to Pad
+	4::Path Details for Clock Frequency Summary
+		4.1::Critical Path Report for Clock_1
+	5::Path Details for Clock Relationship Summary
+		5.1::Critical Path Report for (Clock_1:R vs. Clock_1:R)
+===================================================================== 
+                    End of Table of Contents
+##################################################################### 
+
+##################################################################### 
+                    1::Clock Frequency Summary
+===================================================================== 
+Number of clocks: 6
+Clock: Clock_1       | Frequency: 21.97 MHz  | Target: 0.00 MHz   | 
+Clock: CyBUS_CLK     | N/A                   | Target: 24.00 MHz  | 
+Clock: CyILO         | N/A                   | Target: 0.00 MHz   | 
+Clock: CyIMO         | N/A                   | Target: 3.00 MHz   | 
+Clock: CyMASTER_CLK  | N/A                   | Target: 24.00 MHz  | 
+Clock: CyPLL_OUT     | N/A                   | Target: 24.00 MHz  | 
+
+ =====================================================================
+                    End of Clock Frequency Summary
+ #####################################################################
+
+
+ #####################################################################
+                    2::Clock Relationship Summary
+ =====================================================================
+
+Launch Clock  Capture Clock  Constraint(R-R)  Slack(R-R)   Constraint(R-F)  Slack(R-F)  Constraint(F-F)  Slack(F-F)  Constraint(F-R)  Slack(F-R)  
+------------  -------------  ---------------  -----------  ---------------  ----------  ---------------  ----------  ---------------  ----------  
+Clock_1       Clock_1        1e+012           -2147483648  N/A              N/A         N/A              N/A         N/A              N/A         
+
+ =====================================================================
+                    End of Clock Relationship Summary
+ #####################################################################
+
+
+ #####################################################################
+                    3::Datasheet Report
+
+All values are in Picoseconds
+ =====================================================================
+
+3.1::Setup to Clock                     
+-------------------                     
+
+Port Name    Setup to Clk  Clock Name:Phase  
+-----------  ------------  ----------------  
+A(0)_PAD:in  18796         Clock_1:R         
+B(0)_PAD:in  14986         Clock_1:R         
+C(0)_PAD:in  14899         Clock_1:R         
+D(0)_PAD:in  14892         Clock_1:R         
+
+
+                       3.2::Clock to Out
+                       -----------------
+
+Port Name     Clock to Out  Clock Name:Phase  
+------------  ------------  ----------------  
+A(0)_PAD:out  26727         Clock_1:R         
+B(0)_PAD:out  22276         Clock_1:R         
+C(0)_PAD:out  22680         Clock_1:R         
+D(0)_PAD:out  22648         Clock_1:R         
+
+
+                         3.3::Pad to Pad
+                         ---------------
+
+Port Name (Source)  Port Name (Destination)  Delay  
+------------------  -----------------------  -----  
+
+===================================================================== 
+                    End of Datasheet Report
+##################################################################### 
+##################################################################### 
+                    4::Path Details for Clock Frequency Summary
+===================================================================== 
+4.1::Critical Path Report for Clock_1
+*************************************
+Clock: Clock_1
+Frequency: 21.97 MHz | Target: 0.00 MHz
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_1/q
+Path End       : cydff_2/main_0
+Capture Clock  : cydff_2/clock_0
+Path slack     : 999999954477p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       42013
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           42013
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_1/clock_0                                            macrocell1          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_1/q       macrocell1    1250   1250  999999954477  RISE       1
+A(0)/pin_input  iocell1       9586  10836  999999954477  RISE       1
+A(0)/pad_out    iocell1      15891  26727  999999954477  RISE       1
+A(0)/pad_in     iocell1          0  26727  999999954477  RISE       1
+A(0)/fb         iocell1       7219  33946  999999954477  RISE       1
+cydff_2/main_0  macrocell2    8067  42013  999999954477  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_2/clock_0                                            macrocell2          0      0  RISE       1
+
+
+
+===================================================================== 
+                    End of Path Details for Clock Frequency Summary
+##################################################################### 
+
+
+##################################################################### 
+                    5::Path Details for Clock Relationship Summary
+===================================================================== 
+
+5.1::Critical Path Report for (Clock_1:R vs. Clock_1:R)
+*******************************************************
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_1/q
+Path End       : cydff_2/main_0
+Capture Clock  : cydff_2/clock_0
+Path slack     : 999999954477p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       42013
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           42013
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_1/clock_0                                            macrocell1          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_1/q       macrocell1    1250   1250  999999954477  RISE       1
+A(0)/pin_input  iocell1       9586  10836  999999954477  RISE       1
+A(0)/pad_out    iocell1      15891  26727  999999954477  RISE       1
+A(0)/pad_in     iocell1          0  26727  999999954477  RISE       1
+A(0)/fb         iocell1       7219  33946  999999954477  RISE       1
+cydff_2/main_0  macrocell2    8067  42013  999999954477  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_2/clock_0                                            macrocell2          0      0  RISE       1
+
+
+
+===================================================================== 
+                    End of Path Details for Clock Relationship Summary
+##################################################################### 
+
+##################################################################### 
+                    Detailed Report for all timing paths 
+===================================================================== 
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_1/q
+Path End       : cydff_2/main_0
+Capture Clock  : cydff_2/clock_0
+Path slack     : 999999954477p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       42013
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           42013
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_1/clock_0                                            macrocell1          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_1/q       macrocell1    1250   1250  999999954477  RISE       1
+A(0)/pin_input  iocell1       9586  10836  999999954477  RISE       1
+A(0)/pad_out    iocell1      15891  26727  999999954477  RISE       1
+A(0)/pad_in     iocell1          0  26727  999999954477  RISE       1
+A(0)/fb         iocell1       7219  33946  999999954477  RISE       1
+cydff_2/main_0  macrocell2    8067  42013  999999954477  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_2/clock_0                                            macrocell2          0      0  RISE       1
+
+
+
+++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_3/q
+Path End       : cydff_1/main_0
+Capture Clock  : cydff_1/clock_0
+Path slack     : 999999962421p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       34069
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           34069
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_3/clock_0                                            macrocell3          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_3/q       macrocell3    1250   1250  999999962421  RISE       1
+C(0)/pin_input  iocell3       6451   7701  999999962421  RISE       1
+C(0)/pad_out    iocell3      14979  22680  999999962421  RISE       1
+C(0)/pad_in     iocell3          0  22680  999999962421  RISE       1
+C(0)/fb         iocell3       6259  28939  999999962421  RISE       1
+cydff_1/main_0  macrocell1    5130  34069  999999962421  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_1/clock_0                                            macrocell1          0      0  RISE       1
+
+
+
+++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_3/q
+Path End       : cydff_4/main_0
+Capture Clock  : cydff_4/clock_0
+Path slack     : 999999962421p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       34069
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           34069
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_3/clock_0                                            macrocell3          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_3/q       macrocell3    1250   1250  999999962421  RISE       1
+C(0)/pin_input  iocell3       6451   7701  999999962421  RISE       1
+C(0)/pad_out    iocell3      14979  22680  999999962421  RISE       1
+C(0)/pad_in     iocell3          0  22680  999999962421  RISE       1
+C(0)/fb         iocell3       6259  28939  999999962421  RISE       1
+cydff_4/main_0  macrocell4    5130  34069  999999962421  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_4/clock_0                                            macrocell4          0      0  RISE       1
+
+
+
+++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_4/q
+Path End       : cydff_1/main_1
+Capture Clock  : cydff_1/clock_0
+Path slack     : 999999962460p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       34030
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           34030
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_4/clock_0                                            macrocell4          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_4/q       macrocell4    1250   1250  999999962460  RISE       1
+D(0)/pin_input  iocell4       6403   7653  999999962460  RISE       1
+D(0)/pad_out    iocell4      14995  22648  999999962460  RISE       1
+D(0)/pad_in     iocell4          0  22648  999999962460  RISE       1
+D(0)/fb         iocell4       6250  28898  999999962460  RISE       1
+cydff_1/main_1  macrocell1    5132  34030  999999962460  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_1/clock_0                                            macrocell1          0      0  RISE       1
+
+
+
+++++ Path 5 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : cydff_2/q
+Path End       : cydff_3/main_0
+Capture Clock  : cydff_3/clock_0
+Path slack     : 999999962738p
+
+Capture Clock Arrival Time                                 0
++ Clock path delay                                         0
++ Cycle adjust (Clock_1:R#1 vs. Clock_1:R#2)   1000000000000
+- Setup time                                           -3510
+--------------------------------------------   ------------- 
+End-of-path required time (ps)                  999999996490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       33752
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           33752
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_2/clock_0                                            macrocell2          0      0  RISE       1
+
+Data path
+pin name        model name   delay     AT         slack  edge  Fanout
+--------------  -----------  -----  -----  ------------  ----  ------
+cydff_2/q       macrocell2    1250   1250  999999962738  RISE       1
+B(0)/pin_input  iocell2       6406   7656  999999962738  RISE       1
+B(0)/pad_out    iocell2      14620  22276  999999962738  RISE       1
+B(0)/pad_in     iocell2          0  22276  999999962738  RISE       1
+B(0)/fb         iocell2       6324  28600  999999962738  RISE       1
+cydff_3/main_0  macrocell3    5152  33752  999999962738  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_0                                      clockblockcell      0      0  RISE       1
+cydff_3/clock_0                                            macrocell3          0      0  RISE       1
+
+
+===================================================================== 
+                    End of Detailed Report for all timing paths 
+##################################################################### 
+
+##################################################################### 
+                    End of Timing Report 
+##################################################################### 
+

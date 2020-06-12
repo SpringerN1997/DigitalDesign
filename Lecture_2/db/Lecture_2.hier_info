@@ -1,0 +1,22 @@
+|Lecture_2
+switch[3] => led2.IN0
+switch[3] => led[3].DATAIN
+switch[2] => led2.IN1
+switch[2] => led[2].DATAIN
+switch[1] => led2.IN0
+switch[1] => led[1].DATAIN
+switch[0] => led2.IN1
+switch[0] => led[0].DATAIN
+led[3] <= switch[3].DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= switch[2].DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= switch[1].DB_MAX_OUTPUT_PORT_TYPE
+led[0] <= switch[0].DB_MAX_OUTPUT_PORT_TYPE
+led2[3] <= <GND>
+led2[2] <= <GND>
+led2[1] <= <GND>
+led2[0] <= led2.DB_MAX_OUTPUT_PORT_TYPE
+IN_1 => OUT_1.IN0
+IN_2 => OUT_1.IN1
+OUT_1 <= OUT_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
